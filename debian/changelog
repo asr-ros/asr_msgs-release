@@ -1,0 +1,7 @@
+ros-melodic-asr-msgs (1.0.0-1stretch) stretch; urgency=high
+
+  * Create initial version of this package
+
+ -- Meißner Pascal <asr-ros@lists.kit.edu>  Wed, 25 Dec 2019 23:00:00 -0000
+
+

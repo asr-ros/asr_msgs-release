@@ -1,0 +1,13 @@
+Source: ros-melodic-asr-msgs
+Section: misc
+Priority: optional
+Maintainer: Meißner Pascal <asr-ros@lists.kit.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/asr_msgs
+Standards-Version: 3.9.2
+
+Package: ros-melodic-asr-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: This package contains all messages that are particular to our Active Scene Recognition - Framework at Humanoids and Intelligence Systems Lab (HIS), Karlsruhe Institute of Technology (KIT).
+ These messages make up the interfaces between the different collaborating components of this system. They are of critical importance and structured by the ROS communication capabilities.
